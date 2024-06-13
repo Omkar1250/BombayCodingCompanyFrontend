@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+/* styles.css */
+.zoom-effect {
+  transition: transform 0.3s ease-in-out;
+}
+
+.zoom-effect:hover {
+  transform: scale(1.1); /* Adjust scale factor as needed */
+}
+
+
+
+.menu {
+  position: absolute;
+  left: 0;
+  top: 9%;
+  height: screen;
+  width: 70%;
+  background-color: white;
+  z-index: 10000;
+  transition: left 0.3s ease;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.3);
+}
+
+.menu.open {
+  left: 0;
+}
+
