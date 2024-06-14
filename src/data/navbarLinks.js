@@ -9,7 +9,7 @@ export const NavbarLinks = [
     },
     {
         title: "Blog",
-        path: "/blogs",
+        path: "/blog",
     },
     {
         title:"Portfolio",
@@ -18,6 +18,10 @@ export const NavbarLinks = [
     {
         title:"About Us",
         path: "/aboutus",
+    },
+    {
+        title:"Contact Us",
+        path: "/contactus",
     },
    
 ]

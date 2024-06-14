@@ -32,10 +32,10 @@ export default function Footer() {
                 <div className='text-center'>
                     <h3 className='mb-2 text-lg font-semibold'>Follow Us On</h3>
                     <div className='flex justify-center items-center gap-x-6'>
-                        <FaInstagram size={28} className='text-bgblue  zoom-effect' />
-                        <FaLinkedin size={28} className='text-bgblue  zoom-effect' />
-                        <FaGithub size={28} className='text-bgblue  zoom-effect' />
-                        <FaFacebook size={28} className='text-bgblue  zoom-effect' />
+                        <FaInstagram size={28} className='hover:text-pink-200 zoom-effect' />
+                        <FaLinkedin size={28} className='hover:text-bgblue  zoom-effect' />
+                        <FaGithub size={28} className='hover:text-caribbeangreen-200  zoom-effect' />
+                        <FaFacebook size={28} className='hover:text-bgblue  zoom-effect' />
                     </div>
                 </div>
             </div>

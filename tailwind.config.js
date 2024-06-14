@@ -13,6 +13,7 @@ module.exports = {
       transparent: "#ffffff00",
       offwhite: "#f8f8f8",
       bgblue:"#0530a8",
+      insta:"ee202f",
       gray: {
         50: "#f9fafb",
         100: "#f3f4f6",

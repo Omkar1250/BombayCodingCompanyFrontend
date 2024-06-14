@@ -7,6 +7,7 @@ import '../App.css';
 import TimelineSection from '../Components/common/Homepage/TimeineSection';
 import HighlightText from '../Components/common/Homepage/HighlightText';
 import CTAButton from '../Components/common/Homepage/Button'
+import ServiceHeroSection from '../Components/common/Homepage/ServiceHeroSection';
 export default function Home() {
   return (
     <div >
@@ -60,7 +61,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='mx-auto flex w-11/12 max-w-maxContent flex-col items-center justify-between lg:mt-2 mt-28'>
+    
+    
+      <div className='w-11/12 mx-auto'>
+            <ServiceHeroSection/>
+          </div>
+          <div className='mx-auto flex w-11/12 max-w-maxContent flex-col items-center justify-between lg:mt-2 mt-28'>
           <div className=' mt-[-100px] flex flex-col justify-between gap-7 lg:mt-20 lg:flex-row lg:gap-0'>
           <div className="text-4xl font-semibold lg:w-[45%] ">
           Ready to Start Your Project?{" "}
@@ -76,12 +82,12 @@ export default function Home() {
             </div>
           </div>
       </div>
-    
 
           {/* section 3 */}
           <div className='w-11/12 mx-auto'>
             <TimelineSection/>
           </div>
+        
 
 
 
