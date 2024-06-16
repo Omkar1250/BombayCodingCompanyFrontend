@@ -37,8 +37,8 @@ const ContactUsForm = () => {
     if (isSubmitSuccessful) {
       reset({
         email: "",
-        firstname: "",
-        lastname: "",
+        firstName: "",
+        lastName: "",
         message: "",
         phoneNo: "",
       })
@@ -52,34 +52,34 @@ const ContactUsForm = () => {
     >
       <div className="flex flex-col gap-5 lg:flex-row">
         <div className="flex flex-col gap-2 lg:w-[48%]">
-          <label htmlFor="firstname" className="lable-style">
+          <label htmlFor="firstName" className="lable-style">
             First Name
           </label>
           <input
             type="text"
-            name="firstname"
-            id="firstname"
+            name="firstName"
+            id="firstName"
             placeholder="Enter first name"
             className="form-style"
-            {...register("firstname", { required: true })}
+            {...register("firstName", { required: true })}
           />
-          {errors.firstname && (
+          {errors.firstName && (
             <span className="-mt-1 text-[12px] text-yellow-100">
               Please enter your name.
             </span>
           )}
         </div>
         <div className="flex flex-col gap-2 lg:w-[48%]">
-          <label htmlFor="lastname" className="lable-style">
+          <label htmlFor="lastName" className="lable-style">
             Last Name
           </label>
           <input
             type="text"
-            name="lastname"
-            id="lastname"
+            name="lastName"
+            id="lastName"
             placeholder="Enter last name"
             className="form-style"
-            {...register("lastname")}
+            {...register("lastName")}
           />
         </div>
       </div>
