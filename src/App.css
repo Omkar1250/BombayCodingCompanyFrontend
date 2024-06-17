@@ -41,3 +41,49 @@
 .section_heading {
   @apply text-2xl font-bold text-richblack-5 lg:text-4xl;
 }
+
+/* Define keyframes for the animation */
+/* @keyframes animateBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+} */
+
+/* Apply the animation to the background
+.animated-background {
+  background-size: 200% 200%;
+  animation: animateBackground 15s infinite linear;
+} */
+
+/* Keyframes for rotating background */
+@keyframes rotateBackground {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Apply the animation to the background */
+.animated-background {
+  animation: rotateBackground 60s linear;
+}
+
+/* Fade-in effect for images */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
