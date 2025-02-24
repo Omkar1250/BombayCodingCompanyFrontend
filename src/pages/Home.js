@@ -76,7 +76,7 @@ export default function Home() {
               <div className="text-[16px]">
               To discuss your requirements and get a free quote.
               </div>
-              <CTAButton active={true} linkto={"/contactctus"}>
+              <CTAButton active={true} linkto={"/contactus"}>
                   <div>Contact Us</div>
               </CTAButton>
             </div>
