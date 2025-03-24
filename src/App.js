@@ -10,7 +10,11 @@ import Blog from './pages/Blog'
 import Portfolio from './pages/Portfolio'
 import ContactUs from './pages/ContactUs';
 import WebDevelopment from './pages/WebDevelopment';
+import AppDevelopment from './pages/AppDevelopment';
+import EcommerceSolutions from './pages/Ecomerce';
+import EmailHosting from './pages/EmailHosting';
 function App() {
+  
   return (
     <div className="App ">
      <Navbar/>
@@ -22,6 +26,11 @@ function App() {
            <Route path='/portfolio' element={<Portfolio/>}/>
            <Route path='/contactus' element={<ContactUs/>}/>
            <Route path='/services/web-development' element={<WebDevelopment/>}/>
+           <Route path='/services/mobile-app-development' element={<AppDevelopment/>} />
+           <Route path='/services/ecommerce-solutions' element={<EcommerceSolutions/>} />
+           <Route path='/services/email-hosting' element={<EmailHosting/>} />
+
+
 
      </Routes>
      <Footer/>

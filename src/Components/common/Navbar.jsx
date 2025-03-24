@@ -50,7 +50,7 @@ export default function Navbar() {
               )}
             </li>
           ))}
-        </ul>
+        </ul>   
       </div>
 
       {/* Mobile Navbar */}

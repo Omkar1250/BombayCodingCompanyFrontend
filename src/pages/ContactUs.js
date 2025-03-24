@@ -16,7 +16,7 @@ const Contact = () => {
         <div className="lg:w-[60%]">
           <ContactForm />
         </div>
-      </div>
+      </div> 
       
   
     </div>

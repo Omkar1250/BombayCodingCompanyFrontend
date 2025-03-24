@@ -5,6 +5,7 @@ export const FooterLink2 = [
         { title: "Website Development", link: "/" },
         { title: "App Development", link: "/" },
         { title: "Enterprise Solutions", link: "/" },
+        { title: "Email Hosting", link: "/"}
       
       ],
     },

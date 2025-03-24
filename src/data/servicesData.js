@@ -1,4 +1,4 @@
-import { FaLaptopCode, FaMobileAlt, FaShoppingCart } from 'react-icons/fa';
+import { FaLaptopCode, FaMailBulk, FaMobileAlt, FaShoppingCart } from 'react-icons/fa';
 
 export const ServicesLinks = [
     {
@@ -18,5 +18,9 @@ export const ServicesLinks = [
         url: "/services/ecommerce-solutions",
         description: "Building secure and scalable ecommerce platforms.",
         icon: FaShoppingCart
-    }
+    },
+    { title: "Email Hosting",
+      url: "/services/email-hosting",
+      description: "Reliable and scalable email hosting solutions with custom domian support.",
+      icon: FaMailBulk}
 ];

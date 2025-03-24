@@ -1,20 +1,20 @@
 import { Link } from "react-router-dom";
 
-export default function WebDevelopment() {
+export default function EmailHosting() {
     return (
       <div className="min-h-screen bg-gray-100 p-6">
         {/* Header Section */}
         <div className="mb-8">
-          <h2 className="text-richblack-700 font-bold text-3xl p-3">Web Development</h2>
+          <h2 className="text-richblack-700 font-bold text-3xl p-3">Email Hosting</h2>
   
           {/* Get Started Button below the heading */}
           <div className="px-3 py-2">
-            <Link to={'/contactus'}>
-            <button className="px-4 py-3 bg-bgblue rounded-md text-white">
-              Get Started
-            </button>
-            
-            </Link>
+             <Link to={'/contactus'}>
+                        <button className="px-4 py-3 bg-bgblue rounded-md text-white">
+                          Get Started
+                        </button>
+                        
+                        </Link>
           </div>
         </div>
   
@@ -22,50 +22,50 @@ export default function WebDevelopment() {
         <div className="bg-white p-6 rounded-lg shadow-lg">
           <h3 className="text-2xl font-semibold text-gray-800 mb-4">Our Expertise</h3>
           <p className="text-gray-600 mb-8">
-            We specialize in building scalable, high-performance websites that offer seamless user experiences. From custom websites to CMS-based solutions, we ensure your online presence is powerful, engaging, and user-friendly.
+            Our email hosting services provide secure, reliable, and scalable email solutions for businesses of all sizes. We ensure seamless communication with advanced features such as custom domains, spam protection, and high deliverability rates.
           </p>
   
           {/* Features List */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             <div className="bg-gray-50 p-4 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
-              <h4 className="font-semibold text-lg text-gray-800 mb-2">Custom Web Design</h4>
+              <h4 className="font-semibold text-lg text-gray-800 mb-2">Custom Domain Emails</h4>
               <p className="text-gray-700">
-                We create visually appealing, responsive websites tailored to your business needs and branding.
+                Use your own domain to create professional email addresses that build trust with your customers.
               </p>
             </div>
   
             <div className="bg-gray-50 p-4 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
-              <h4 className="font-semibold text-lg text-gray-800 mb-2">Content Management Systems</h4>
+              <h4 className="font-semibold text-lg text-gray-800 mb-2">Spam Protection</h4>
               <p className="text-gray-700">
-                Manage your website effortlessly with popular CMS platforms like WordPress, Joomla, and more.
+                Our spam filters ensure your inbox stays clean and free from unwanted emails.
               </p>
             </div>
   
             <div className="bg-gray-50 p-4 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
-              <h4 className="font-semibold text-lg text-gray-800 mb-2">E-commerce Web Development</h4>
+              <h4 className="font-semibold text-lg text-gray-800 mb-2">High Deliverability</h4>
               <p className="text-gray-700">
-                We build fully functional, secure, and scalable e-commerce websites that help you sell online efficiently.
+                Ensure your emails reach the intended recipient with high deliverability rates and reliability.
               </p>
             </div>
   
             <div className="bg-gray-50 p-4 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
-              <h4 className="font-semibold text-lg text-gray-800 mb-2">SEO Optimization</h4>
+              <h4 className="font-semibold text-lg text-gray-800 mb-2">24/7 Support</h4>
               <p className="text-gray-700">
-                We optimize your website to improve its visibility on search engines, driving more organic traffic.
+                Our support team is available 24/7 to help you with any issues related to your email hosting.
               </p>
             </div>
   
             <div className="bg-gray-50 p-4 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
-              <h4 className="font-semibold text-lg text-gray-800 mb-2">Responsive Web Design</h4>
+              <h4 className="font-semibold text-lg text-gray-800 mb-2">Scalable Plans</h4>
               <p className="text-gray-700">
-                Your website will look great and function smoothly across all devices, from desktop to mobile.
+                Choose from various plans to meet the specific needs of your business, whether you're a small team or a large enterprise.
               </p>
             </div>
   
             <div className="bg-gray-50 p-4 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
-              <h4 className="font-semibold text-lg text-gray-800 mb-2">Web Application Development</h4>
+              <h4 className="font-semibold text-lg text-gray-800 mb-2">Advanced Security</h4>
               <p className="text-gray-700">
-                We create interactive and feature-rich web applications that enhance user engagement and business processes.
+                We implement advanced encryption and security protocols to protect your sensitive email data.
               </p>
             </div>
           </div>
@@ -75,20 +75,20 @@ export default function WebDevelopment() {
         <div className="mt-12 bg-white p-6 rounded-lg shadow-lg">
           <h3 className="text-2xl font-semibold text-gray-800 mb-4">Why Choose Us?</h3>
           <p className="text-gray-600 mb-4">
-            We are a team of dedicated web developers committed to building websites that not only look good but also provide superior functionality. Our solutions are designed to drive user engagement and conversion, ensuring your business stands out online.
+            Our email hosting services are designed for businesses that need professional, secure, and reliable email solutions. Choose us for your email hosting needs and enjoy exceptional support, robust security, and unbeatable uptime.
           </p>
           <ul className="list-none pl-6 text-gray-700">
             <li className="mb-3 hover:text-blue-600 transition-colors duration-300">
-              Custom-designed websites that match your business goals
+              Custom email domain for your business
             </li>
             <li className="mb-3 hover:text-blue-600 transition-colors duration-300">
-              Expertise in both front-end and back-end web development
+              Powerful spam filters to protect your inbox
             </li>
             <li className="mb-3 hover:text-blue-600 transition-colors duration-300">
-              SEO-friendly websites to help boost organic traffic
+              Reliable and high deliverability email service
             </li>
             <li className="hover:text-blue-600 transition-colors duration-300">
-              Ongoing maintenance and support after launch
+              Dedicated 24/7 customer support
             </li>
           </ul>
         </div>
