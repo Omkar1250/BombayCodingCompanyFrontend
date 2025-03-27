@@ -6,5 +6,5 @@ if (!BASE_URL) {
 }
 
 export const contactEndPoints = {
-    CONTACT_US_API: `${BASE_URL}/reach/contact`
+    CONTACT_US_API: `${BASE_URL}/contact`
 };

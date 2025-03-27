@@ -15,7 +15,7 @@ export default function Home() {
       <div className='relative px-4 mx-auto border rounded-sm  '>
         {/* Background Image */}
         <div
-          className="absolute inset-0 bg-contain bg-center"
+          className=" inset-0 absolutebg-contain bg-center"
           style={{
             backgroundImage: `url(${Banner})`,
             opacity: 0.7, // Adjust opacity as needed
